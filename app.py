@@ -26,7 +26,7 @@ def fetch():
             return render_template("returnedname.html", name=name,user_removed=user_removed)
 
         else:
-            removeuser(number)
+            # removeuser(number)
             return render_template("returnedname.html", name=name[0],user_removed=user_removed)
 
 
